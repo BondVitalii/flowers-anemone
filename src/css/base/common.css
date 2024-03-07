@@ -1,4 +1,8 @@
 body {
+  font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.25;
+
+  color: var(--black-txt-cl);
+  background-color: var(--primary-bg-cl);
 }
