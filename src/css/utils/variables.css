@@ -1,15 +1,41 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  /* font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; */
+  /* Fonts color */
+  --font-family: 'Montserrat', sans-serif;
+  --second-family: 'Inter', sans-serif;
+  /* Logo color */
+  --logo-dark-cl: #0e0e0e;
+  --logo-light-cl: #ffffff;
+  /* Text color */
+  --black-txt-cl: #000000;
+  --white-txt-cl: #ffffff;
+  --grey-txt-cl: #5c5c5c;
+  --accent-txt-cl: #e86f54;
+  /* BG color */
+  --primary-bg-cl: #ffffff;
+  --second-bg-cl: #0e0e0e;
+  --accent-bg-cl: #e86f54;
+  --backdrop-bg-cl: rgba(0, 0, 0, 0.3);
+  --header-bg-cl: rgba(232, 111, 84, 0.4);
+  --start-color: #ffffff;
+  --end-color: rgba(232, 111, 84, 0.4);
+  /* Input color */
+  --lable-normal-cl: #5c5c5c;
+  --lable-hover-cl: rgba(17, 17, 17, 0.7);
+  --error-cl: #e74a3b;
+  --correct-cl: #3cbc81;
+  --valid-txt-cl: #111111;
+  --placeholder-txt-cl: rgba(17, 17, 17, 0.4);
+  --input-normal-br-cl: #d7d7d7;
+  --input-focus-br-cl: rgba(17, 17, 17, 0.7);
+  /* Button color */
+  --btn-default-bg-cl: #e86f54;
+  --btn-hover-bg-cl: #e25b41;
+  --btn-focus-bg-cl: #fa6f54;
+  --btn-disabled-bg-cl: rgba(232, 111, 84, 0.4);
+  /* Others */
+  /* --radius: 25px; */
+  --indent: 30px;
+  --items: 2;
+  /* Transition time */
+  --transit: 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
