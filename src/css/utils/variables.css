@@ -9,6 +9,7 @@
   --black-txt-cl: #000000;
   --white-txt-cl: #ffffff;
   --grey-txt-cl: #5c5c5c;
+  --accent-txt-cl: #e86f54;
   /* BG color */
   --primary-bg-cl: #ffffff;
   --second-bg-cl: #0e0e0e;
@@ -16,7 +17,7 @@
   --backdrop-bg-cl: rgba(0, 0, 0, 0.3);
   --header-bg-cl: rgba(232, 111, 84, 0.4);
   --start-color: #ffffff;
-  --end-color: #e86f54;
+  --end-color: rgba(232, 111, 84, 0.4);
   /* Input color */
   --lable-normal-cl: #5c5c5c;
   --lable-hover-cl: rgba(17, 17, 17, 0.7);
