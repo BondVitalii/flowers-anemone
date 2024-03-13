@@ -1,41 +1,74 @@
-<section class="hero-section section">
-  <div class="container">
-    <h1 class="hero-title title">Hero</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis optio
-      modi voluptatum, amet ullam magnam soluta vel, fugiat consequuntur sunt
-      nostrum corrupti aspernatur ipsa est temporibus. Atque, assumenda
-      repudiandae.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis optio
-      modi voluptatum, amet ullam magnam soluta vel, fugiat consequuntur sunt
-      nostrum corrupti aspernatur ipsa est temporibus. Atque, assumenda
-      repudiandae.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis optio
-      modi voluptatum, amet ullam magnam soluta vel, fugiat consequuntur sunt
-      nostrum corrupti aspernatur ipsa est temporibus. Atque, assumenda
-      repudiandae.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis optio
-      modi voluptatum, amet ullam magnam soluta vel, fugiat consequuntur sunt
-      nostrum corrupti aspernatur ipsa est temporibus. Atque, assumenda
-      repudiandae.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis optio
-      modi voluptatum, amet ullam magnam soluta vel, fugiat consequuntur sunt
-      nostrum corrupti aspernatur ipsa est temporibus. Atque, assumenda
-      repudiandae.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis optio
-      modi voluptatum, amet ullam magnam soluta vel, fugiat consequuntur sunt
-      nostrum corrupti aspernatur ipsa est temporibus. Atque, assumenda
-      repudiandae.
-    </p>
+<section class="hero section">
+  <div class="hero-container container">
+    <div class="hero-content-wrapper">
+      <h1 class="hero-title">ANEMONE</h1>
+      <p class="hero-desc">flower studio</p>
+      <button class="hero-btn" type="button">
+        <svg class="hero-btn-icon" width="76" height="76">
+          <use class="btn-icon-txt" href="../img/icons.svg#btn-text"></use>
+          <use class="btn-icon-arrow" href="../img/icons.svg#btn-arrow"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="hero-imag-wrapper">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/hero/hero-img_desk@1x.webp 1x,
+            ./img/hero/hero-img_desk@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/hero/hero-img_desk@1x.jpg 1x,
+            ./img/hero/hero-img_desk@2x.jpg 2x
+          "
+          type="image/jpeg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/hero/hero-img_tab@1x.webp 1x,
+            ./img/hero/hero-img_tab@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/hero/hero-img_tab@1x.jpg 1x,
+            ./img/hero/hero-img_tab@2x.jpg 2x
+          "
+          type="image/jpeg"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/hero/hero-img_mob@1x.webp 1x,
+            ./img/hero/hero-img_mob@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/hero/hero-img_mob@1x.jpg 1x,
+            ./img/hero/hero-img_mob@2x.jpg 2x
+          "
+          type="image/jpeg"
+        />
+        <img
+          class="hero-img"
+          src="./img/hero/hero-img_tab@1x.jpg"
+          alt="flowers"
+          width=""
+          height=""
+          loading="lazy"
+        />
+      </picture>
+    </div>
   </div>
 </section>
